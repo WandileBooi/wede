@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Bake House</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <!-- header section -->
+ <header>
+    <input type="checkbox" name="" id="toggler">
+    <label for="toggler" class="fas fa-bars"></label>
+
+    <a href="#" class="logo">The Bake House<span>.</span></a>
+
+    <nav class="navbar">
+            
+                <a href="index.html">Home</a>
+                <a href="shop.html">Shop</a>
+                <a href="aboutUs.html">About Us</a>
+                <a href="contact.html">Contact</a>
+                <a href="cart.html">Cart</a>
+            
+        </nav>
+
+    <div class="icons">
+    <a href="cart.html" class="fas fa-shopping-cart"></a>
+    <a href="#" class="fas fa-heart"></a>
+    <a href="#" id="searchToggle" class="fas fa-search"></a>
+</div>
+
+<div class="search-box" id="searchBox">
+    <input type="text" id="searchInput" placeholder="Search for products...">
+    <button type="button" id="searchButton">Search</button>
+</div>
+ </header>
+    <!-- header section -->
+    <!-- contact section -->
+
+        <section class="contact" id="contact">
+
+            <h1 class="heading"> <span> Contact </span> Us </h1>
+
+           <div class="row">
+
+                <form id="contactForm">
+                    <input type="text" id="name" maxlength="50" name="name" placeholder="Name" class="box" required>
+
+                    <input type="email" id="email" maxlength="100" name="email" placeholder="Email" class="box" required>
+
+                    <input type="tel" id="phone" maxlength="10" name="phone" placeholder="Phone" class="box" required>
+
+                    <textarea name="message" maxlength="200" placeholder="Message" class="box" id="message" cols="30" rows="10" required></textarea>
+
+                    <p id="formMessage"></p>
+
+                    <input type="submit" value="Send Message" class="btn">
+                </form>
+
+                <div class="image">
+                    <img src="C:\Users\user\OneDrive - ADvTECH Ltd\Documents\WED\POE\Part 2\Images\contactus.jpg" alt="contact us">
+                </div>
+
+           </div>
+
+
+               
+        </section>
+
+
+
+    <!-- contact section -->
+
+    
+
+    <!--map section-->
+    <section class="location-section">
+
+    <h2>Visit The Bake House</h2>
+
+    <p>
+        We would love to welcome you!
+        Find our location using the map below.
+    </p>
+
+    <div class="map-container">
+
+        <iframe
+            src="https://www.google.com/maps?q=Johannesburg,South%20Africa&output=embed"
+            width="100%"
+            height="400"
+            style="border:0;"
+            allowfullscreen
+            loading="lazy">
+        </iframe>
+
+    </div>
+
+</section>
+<!--map section-->
+    
+<!--footer section-->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>Quick Links</h3>
+                <a href="index.html">Home</a>
+                <a href="shop.html">Shop</a>
+                <a href="aboutUs.html">About Us</a>
+                <a href="contact.html">Contact</a>
+                <a href="cart.html">Cart</a>
+            </div>
+
+            <div class="box">
+                <h3>Contact Info</h3>
+                <p> <i class="fas fa-phone"></i> +27 123 456 7890 </p>
+                <p> <i class="fas fa-envelope"></i> contact@thebakehouse.com </p>
+            </div>
+
+        </div>
+
+    <div class="credit"> &copy; The Bake <span> House </span> | all rights reserved </div>
+
+    </section>
+
+
+<!--footer section--> 
+<script src="script.js"></script>
+</body>
+</html>

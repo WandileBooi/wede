@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Bake House</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <!-- header section -->
+ <header>
+    <input type="checkbox" name="" id="toggler">
+    <label for="toggler" class="fas fa-bars"></label>
+
+    <a href="#" class="logo">The Bake House<span>.</span></a>
+
+    <nav class="navbar">
+            
+                <a href="index.html">Home</a>
+                <a href="shop.html">Shop</a>
+                <a href="aboutUs.html">About Us</a>
+                <a href="contact.html">Contact</a>
+                <a href="cart.html">Cart</a>
+            
+        </nav>
+
+    <div class="icons">
+    <a href="cart.html" class="fas fa-shopping-cart"></a>
+    <a href="#" class="fas fa-heart"></a>
+    <a href="#" id="searchToggle" class="fas fa-search"></a>
+</div>
+
+<div class="search-box" id="searchBox">
+    <input type="text" id="searchInput" placeholder="Search for products...">
+    <button type="button" id="searchButton">Search</button>
+</div>
+ </header>
+<!-- header section -->
+     <main>
+
+
+        <h2>Your Cart</h2>
+
+        
+
+        <br>
+
+        <a href="shop.html">
+            <button>Continue Shopping</button>
+        </a>
+
+        <a href="">
+            <button>Proceed to Checkout</button>
+        </a>
+
+        
+<!-- Shopping Cart Section -->
+
+<section class="shopping-cart" id="cart">
+
+    <h1 class="heading">Your <span>Shopping Cart</span></h1>
+
+    <div id="cartItems">
+        <p class="empty-cart">Your cart is currently empty.</p>
+    </div>
+
+    <div class="cartTotal">
+        <h3>Total: <span id="cartTotal">R 0.00</span></h3>
+
+        <button type="button" id="clearCart" class="btn">
+            Clear Cart
+        </button>
+    </div>
+
+</section>
+</main>
+
+<!-- Shopping Cart Section -->
+
+<!--footer section-->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>Quick Links</h3>
+                <a href="index.html">Home</a>
+                <a href="shop.html">Shop</a>
+                <a href="aboutUs.html">About Us</a>
+                <a href="contact.html">Contact</a>
+                <a href="cart.html">Cart</a>
+            </div>
+
+            
+
+
+
+
+
+            <div class="box">
+                <h3>Contact Info</h3>
+                <p> <i class="fas fa-phone"></i> +27 123 456 7890 </p>
+                <p> <i class="fas fa-envelope"></i> contact@thebakehouse.com </p>
+            </div>
+
+        </div>
+
+    <div class="credit"> &copy; The Bake <span> House </span> | all rights reserved </div>
+
+    </section>
+
+
+<!--footer section-->
+<script src="script.js"></script>
+</body>
+
+</html>
